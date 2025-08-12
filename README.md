@@ -30,17 +30,10 @@
 - **Smooth Animations**: Engaging micro-interactions and transitions
 - **Offline Support**: Works offline with sync when connection is restored
 
-### 🌍 Internationalization
-- **Multi-language Support**: English and Hindi localization
-- **RTL Support**: Right-to-left text support for various languages
-- **Cultural Adaptation**: UI elements adapted for different regions
 
 ### 🔧 Technical Features
 - **Real-time Updates**: Live synchronization across devices
 - **Image Support**: Profile picture upload and management
-- **Voice Notes**: Record and store voice memos
-- **Export/Share**: Share notes and export functionality
-- **Backup & Restore**: Automatic cloud backup with manual restore options
 
 ## 🚀 Getting Started
 
