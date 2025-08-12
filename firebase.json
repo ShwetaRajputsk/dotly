@@ -1,0 +1,57 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "cropfit-da2fb",
+          "appId": "1:739238588953:android:badb2a7b5f0899cb3f7088",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "cropfit-da2fb",
+          "appId": "1:739238588953:ios:ba20fb7ea676cea33f7088",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "cropfit-da2fb",
+          "appId": "1:739238588953:ios:ba20fb7ea676cea33f7088",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "cropfit-da2fb",
+          "configurations": {
+            "android": "1:739238588953:android:badb2a7b5f0899cb3f7088",
+            "ios": "1:739238588953:ios:ba20fb7ea676cea33f7088",
+            "macos": "1:739238588953:ios:ba20fb7ea676cea33f7088",
+            "web": "1:739238588953:web:2a3b72e0e4aed6d13f7088",
+            "windows": "1:739238588953:web:bb31064adcef3ad23f7088"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

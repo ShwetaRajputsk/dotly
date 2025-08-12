@@ -1,0 +1,74 @@
+name: Dotly
+description: A Flutter app for note-taking and task management.
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  file_selector: ^1.0.3
+  camera: ^0.11.0+2
+  firebase_core: ^3.10.0
+  firebase_auth: ^5.4.0
+  firebase_auth_web: ^5.9.0
+  cloud_firestore: ^5.6.1
+  firebase_storage: ^12.4.0
+  shimmer: ^3.0.0  
+  path_provider: ^2.0.13
+  intl: ^0.19.0
+  share_plus: ^7.0.0
+  url_launcher: ^6.1.11
+  webview_flutter: ^4.4.2
+  webview_flutter_platform_interface: ^2.10.0
+  webview_flutter_wkwebview: ^3.12.0
+  webview_flutter_android: ^3.15.0
+  easy_localization: ^3.0.5
+  connectivity_plus: ^6.1.4
+  flutter_markdown: ^0.6.15
+  google_sign_in: ^6.3.0
+  cloud_functions: ^5.3.0
+
+  
+flutter:
+  uses-material-design: true
+  generate: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-ExtraBold.ttf
+          weight: 800
+  assets:
+    - assets/Logo.png
+    - assets/graphic_image.png
+    - assets/translations/en.json
+    - assets/translations/hi.json
+    - assets/fonts/NotoSansDevanagari-VariableFont_wdth,wght.ttf
+    - assets/images/top_plant.png
+    - assets/images/bottom_succulents.png
+    - assets/images/image 9.png
+    - assets/images/image 10.png
+    - assets/images/image 11.png
+    - assets/images/logoimage.jpg
+    - assets/images/google.png
+    - assets/images/logoo.png
+    - assets/images/assistant_icon.png
+
+    
+flutter_launcher_icons: ^0.14.0
+ 
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/Logo.png"
+
