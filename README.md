@@ -1,7 +1,7 @@
 # 📝 Dotly - Modern Notes App
 
 <div align="center">
-  <img src="assets/Logo.png" alt="Dotly Logo" width="200"/>
+
   
   [![Flutter](https://img.shields.io/badge/Flutter-3.5+-blue.svg)](https://flutter.dev/)
   [![Firebase](https://img.shields.io/badge/Firebase-Cloud-orange.svg)](https://firebase.google.com/)
