@@ -82,14 +82,7 @@
 - Configure Firebase hosting (optional)
 - Update Firebase configuration in `web/index.html`
 
-## 📱 Screenshots
 
-<div align="center">
-  <img src="assets/images/screenshot1.png" alt="Home Screen" width="200"/>
-  <img src="assets/images/screenshot2.png" alt="Note Creation" width="200"/>
-  <img src="assets/images/screenshot3.png" alt="Categories" width="200"/>
-  <img src="assets/images/screenshot4.png" alt="Profile" width="200"/>
-</div>
 
 ## 🏗️ Project Structure
 
@@ -188,69 +181,7 @@ flutter build ios --release
 flutter build web --release
 ```
 
-## 🤝 Contributing
 
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Follow Flutter coding conventions
-- Add tests for new features
-- Update documentation for API changes
-- Ensure all tests pass before submitting
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Flutter Team](https://flutter.dev/) for the amazing framework
-- [Firebase](https://firebase.google.com/) for backend services
-- [Material Design](https://material.io/) for design guidelines
-- All contributors and supporters
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/ShwetaRajputsk/dotly/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/ShwetaRajputsk/dotly/discussions)
-- **Email**: [Your Email]
-
-## 🔮 Roadmap
-
-- [ ] **Advanced Note Features**
-  - Rich text editor
-  - Markdown support
-  - Image attachments
-  - Drawing/sketching
-
-- [ ] **Collaboration**
-  - Shared notes
-  - Real-time collaboration
-  - Comments and annotations
-
-- [ ] **Advanced Organization**
-  - Tags system
-  - Folders and subfolders
-  - Smart collections
-  - Archive functionality
-
-- [ ] **Productivity Features**
-  - Reminders and notifications
-  - Calendar integration
-  - Export to various formats
-  - Templates
-
-- [ ] **Security & Privacy**
-  - End-to-end encryption
-  - Biometric authentication
-  - Private notes
-  - Backup encryption
 
 ---
 
